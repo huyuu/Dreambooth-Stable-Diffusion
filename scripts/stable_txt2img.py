@@ -1,4 +1,5 @@
 import argparse, os, sys, glob
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import torch
 import numpy as np
 from omegaconf import OmegaConf
